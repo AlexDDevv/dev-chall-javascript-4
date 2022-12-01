@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Josefin3";
+    src: url(../fonts/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: "Josefin4";
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Josefin6";
+    src: url(../fonts/JosefinSans-SemiBold.ttf);
+}
+
+$font1: Josefin3, sans-serif;
+$font2: Josefin4, sans-serif;
+$font3: Josefin6, sans-serif;
+$red1: hsl(0, 36%, 70%);
+$red2: hsl(0, 93%, 68%);
+$red3: hsl(0, 6%, 24%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
